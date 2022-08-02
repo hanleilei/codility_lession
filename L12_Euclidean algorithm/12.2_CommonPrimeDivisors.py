@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 12：Euclidean algorithm
 # P 12.2 CommonPrimeDivisors
 

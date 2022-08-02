@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 7：Stacks and Queues
 # P 7.1 Brackets
 

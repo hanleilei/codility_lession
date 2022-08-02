@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 16：Greedy algorithms
 # P 16.2 TieRopes
 

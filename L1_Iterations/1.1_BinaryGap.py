@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 1：Iterations
 # P 1.1 BinaryGap
 
@@ -37,3 +37,16 @@ def solution(N):
                 first_1 = index
         return max_length
 
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(N):
+    # write your code in Python 3.6
+    res = 0
+    n = list(bin(N)[2:])
+    ones = [i for i, v in enumerate(n) if v == '1']
+    for o in range(1, len(ones)):
+        res = max(res, ones[o] - ones[o-1])
+    if res == 0:
+        return res
+    return res - 1

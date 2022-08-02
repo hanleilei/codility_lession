@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 90：Tasks from Indeed Prime 2015 challenge
 # P 90.1 LongestPassword
 

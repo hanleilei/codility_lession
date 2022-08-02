@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 14：Binary search algorithm
 # P 14.1 NailingPlanks
 

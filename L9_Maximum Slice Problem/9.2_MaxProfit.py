@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 9：Maximum slice problem
 # P 9.2 MaxProfit
 

@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 15：Caterpillar method
 # P 15.2 CountDistinctSlices
 

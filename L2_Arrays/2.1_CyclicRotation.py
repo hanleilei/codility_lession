@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 2：Arrays
 # P 2.1 CyclicRotation
 
@@ -20,5 +20,16 @@ def solution(A, K):
         for index, value in enumerate(A):
             new_list[(times + index) - length] = value
         return new_list
+
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(nums, k):
+    # write your code in Python 3.6
+    if len(nums) == 0:
+        return nums
+    k = k % len(nums)
+    nums[:] = nums[-k:] + nums[:-k]
+    return nums
 
 

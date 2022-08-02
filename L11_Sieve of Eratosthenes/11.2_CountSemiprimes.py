@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 11：Sieve of Eratosthenes
 # P 11.2 CountSemiprimes
 

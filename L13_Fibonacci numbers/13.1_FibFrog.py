@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 13：Fibonacci numbers
 # P 13.1 FibFrog
 

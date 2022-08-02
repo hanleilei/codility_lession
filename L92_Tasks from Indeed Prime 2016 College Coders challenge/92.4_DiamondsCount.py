@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 92：Tasks from Indeed Prime 2016 College Coders challenge
 # P 92.4 DiamondsCount
 

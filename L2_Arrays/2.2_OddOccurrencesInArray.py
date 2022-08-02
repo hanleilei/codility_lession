@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 2：Arrays
 # P 2.2 OddOccurrencesInArray
 

@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 17：Dynamic programming
 # P 17.1 NumberSolitaire
 

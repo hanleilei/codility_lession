@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 91：Tasks from Indeed Prime 2016 challenge
 # For P91.3 HilbertMaze
 

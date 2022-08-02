@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 6：Sorting
 # P 6.4 NumberOfDiscIntersections
 

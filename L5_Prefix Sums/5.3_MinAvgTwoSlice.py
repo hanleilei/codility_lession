@@ -1,5 +1,5 @@
 # -*- coding：utf-8 -*-
-# &Author  AnFany
+# &Author  hanleilei
 # Lesson 5：Prefix Sums
 # P 5.3 MinAvgTwoSlice
 

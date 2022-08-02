@@ -1,12 +1,11 @@
 # Codility-Lessons-By-Python3
 
-为编程、算法、Python3 的初学者，提供基于 Codility 课程习题的全套解决方案(中文题目+解题思路+Python3 代码)
+为编程、算法、Python3 的初学者，提供基于 Codility 课程习题的全套解决方案(中文题目+解题思路+Python3 代码) 原始的 repo 是https://github.com/Anfany/Codility-Lessons-By-Python3， 是在懒得复制题目信息了，就没有 fork。我自己的代码都是在最下方，然后都有自己的解释。
 
 Codility 网站：https://app.codility.com/programmers/
 
 <body>   
-<table cellspacing="1" cellpadding="1" frame="solid" border="1"  align='border_left'>   
-
+<table cellspacing="1" cellpadding="1" frame="solid" border="1"  align='border_left'>
 
 <tr>   
 	<th colspan="2"> 知识点</th>
