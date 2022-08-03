@@ -16,3 +16,16 @@ def solution(A):
         if i not in x_dict:
             return i
     return length + 1
+
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(A):
+    # write your code in Python 3.6
+    a = [0] * 1000000
+    for i in A:
+        if i > 0:
+            a[i-1] = 1
+    for i in range(len(a)):
+        if a[i] == 0:
+            return i+1

@@ -31,3 +31,13 @@ def solution(A):
     for k in times_dict:
         if times_dict[k] % 2 == 1:
             return k
+
+def solution(A):
+    # write your code in Python 3.6
+    s = set()
+    for i in A:
+        if i in s:
+            s.remove(i)
+        else:
+            s.add(i)
+    return s.pop()

@@ -64,6 +64,26 @@ def solution(N, A):
     return [element_counter[j]+sum_max if j in element_counter else sum_max for j in range(N)]
 
 
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(N, A):
+    # write your code in Python 3.6
+    from collections import defaultdict
+    d = dict()
+    d = defaultdict(lambda: 0, d)
+    current_max = 0
+
+    for i, v in enumerate(A):
+        if v == N + 1:
+            current_max = max(d.values(), default=current_max)
+            d = dict()
+            d = defaultdict(lambda: current_max, d)
+        else:
+            d[v-1] += 1
+
+
+    return [d[i] for i in range(N)]
 
 
 print(solution(1, [2, 1, 1, 2, 1]))

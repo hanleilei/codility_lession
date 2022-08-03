@@ -17,3 +17,14 @@ def solution(A):
             return k
     return len(A) + 1
 
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(A):
+    # write your code in Python 3.6
+    if len(A) == 0:
+        return 1
+    res =  sum(range(1, max(A) + 1)) - sum(A)
+    if res == 0:
+        return max(A) + 1
+    return res

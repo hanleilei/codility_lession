@@ -40,3 +40,21 @@ def solution(A):
             sub_abs_list.append(sub_abs)
         return min(sub_abs_list)
 
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(A):
+    # write your code in Python 3.6
+    n = 1
+    res = float("inf")
+    left = A[0]
+    right = sum(A) - left
+
+    while n < len(A):
+        res = min(res, abs(left - right))
+        left += A[n]
+        right -= A[n]
+
+        n += 1
+
+    return res
