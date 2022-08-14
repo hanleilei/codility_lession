@@ -18,3 +18,13 @@ def solution(X, A):
         if len(x_dict) == 0:
             return index
     return -1
+
+def solution(X, A):
+    # write your code in Python 3.6
+    s = set(range(1, X+1))
+    for i , v in enumerate(A):
+        if v in s:
+            s.remove(v)
+        if len(s) == 0:
+            return i
+    return -1

@@ -22,3 +22,20 @@ def solution(A):
             if pairs > 1000000000:
                 return -1
     return pairs
+
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+def solution(A):
+    # write your code in Python 3.6
+    size = len(A)
+    pairs_passed_by = 0
+    zeroes = 0
+    for i in range(size):
+        if A[i] == 0:
+            zeroes+= 1
+        else:
+            pairs_passed_by += zeroes
+            if pairs_passed_by > 1000000000:
+                return -1
+    return pairs_passed_by
